@@ -1,0 +1,43 @@
+{
+"Culture": [
+	{
+		"CultureID" : "      ",
+		"Name" : "Invariant Language (Invariant Country)",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"CultureID" : "ar    ",
+		"Name" : "Arabic",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"CultureID" : "en    ",
+		"Name" : "English",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"CultureID" : "es    ",
+		"Name" : "Spanish",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"CultureID" : "fr    ",
+		"Name" : "French",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"CultureID" : "he    ",
+		"Name" : "Hebrew",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"CultureID" : "th    ",
+		"Name" : "Thai",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"CultureID" : "zh-cht",
+		"Name" : "Chinese",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	}
+]}

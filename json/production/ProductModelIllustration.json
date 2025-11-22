@@ -1,0 +1,38 @@
+{
+"ProductModelIllustration": [
+	{
+		"ProductModelID" : 7,
+		"IllustrationID" : 3,
+		"ModifiedDate" : "2014-01-09T14:41:02.167Z"
+	},
+	{
+		"ProductModelID" : 10,
+		"IllustrationID" : 3,
+		"ModifiedDate" : "2014-01-09T14:41:02.167Z"
+	},
+	{
+		"ProductModelID" : 47,
+		"IllustrationID" : 4,
+		"ModifiedDate" : "2014-01-09T14:41:02.183Z"
+	},
+	{
+		"ProductModelID" : 47,
+		"IllustrationID" : 5,
+		"ModifiedDate" : "2014-01-09T14:41:02.183Z"
+	},
+	{
+		"ProductModelID" : 48,
+		"IllustrationID" : 4,
+		"ModifiedDate" : "2014-01-09T14:41:02.183Z"
+	},
+	{
+		"ProductModelID" : 48,
+		"IllustrationID" : 5,
+		"ModifiedDate" : "2014-01-09T14:41:02.183Z"
+	},
+	{
+		"ProductModelID" : 67,
+		"IllustrationID" : 6,
+		"ModifiedDate" : "2014-01-09T14:41:02.200Z"
+	}
+]}

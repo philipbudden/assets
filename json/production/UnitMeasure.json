@@ -1,0 +1,193 @@
+{
+"UnitMeasure": [
+	{
+		"UnitMeasureCode" : "BOX",
+		"Name" : "Boxes",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "BTL",
+		"Name" : "Bottle",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "C  ",
+		"Name" : "Celsius",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "CAN",
+		"Name" : "Canister",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "CAR",
+		"Name" : "Carton",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "CBM",
+		"Name" : "Cubic meters",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "CCM",
+		"Name" : "Cubic centimeter",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "CDM",
+		"Name" : "Cubic decimeter",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "CM ",
+		"Name" : "Centimeter",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "CM2",
+		"Name" : "Square centimeter",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "CR ",
+		"Name" : "Crate",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "CS ",
+		"Name" : "Case",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "CTN",
+		"Name" : "Container",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "DM ",
+		"Name" : "Decimeter",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "DZ ",
+		"Name" : "Dozen",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "EA ",
+		"Name" : "Each",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "FT3",
+		"Name" : "Cubic foot",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "G  ",
+		"Name" : "Gram",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "GAL",
+		"Name" : "Gallon",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "IN ",
+		"Name" : "Inch",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "KG ",
+		"Name" : "Kilogram",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "KGV",
+		"Name" : "Kilogram\/cubic meter",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "KM ",
+		"Name" : "Kilometer",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "KT ",
+		"Name" : "Kiloton",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "L  ",
+		"Name" : "Liter",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "LB ",
+		"Name" : "US pound",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "M  ",
+		"Name" : "Meter",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "M2 ",
+		"Name" : "Square meter",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "M3 ",
+		"Name" : "Cubic meter",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "MG ",
+		"Name" : "Milligram",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "ML ",
+		"Name" : "Milliliter",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "MM ",
+		"Name" : "Millimeter",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "OZ ",
+		"Name" : "Ounces",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "PAK",
+		"Name" : "Pack",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "PAL",
+		"Name" : "Pallet",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "PC ",
+		"Name" : "Piece",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "PCT",
+		"Name" : "Percentage",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	},
+	{
+		"UnitMeasureCode" : "PT ",
+		"Name" : "Pint, US liquid",
+		"ModifiedDate" : "2008-04-29T23:00:00.000Z"
+	}
+]}
