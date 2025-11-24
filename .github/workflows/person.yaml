@@ -34,14 +34,48 @@ jobs:
           docker build -t $IMAGE_NAME -f- . <<'EOF'
           FROM mcr.microsoft.com/azure-storage/azurite
 
-          # Create a directory to simulate blob storage contents
-          RUN mkdir -p /data/blob/person
+          # Install Python and venv support
+          RUN apk add --no-cache python3 py3-pip
 
-          # Copy person CSVs into the blob directory
-          COPY csv/person/*.csv /data/blob/person/
+          # Create a virtual environment and install SDK inside it
+          RUN python3 -m venv /venv
+          ENV PATH="/venv/bin:$PATH"
+          RUN pip install --no-cache-dir azure-storage-blob
 
-          # Default Azurite command (already provided by base image)
-          CMD ["azurite", "--blobHost", "0.0.0.0", "--blobPort", "10000", "--location", "/data/blob", "--silent"]
+          # Copy CSVs into init-data
+          RUN mkdir -p /init-data
+          COPY csv/person/*.csv /init-data/
+
+          # Inline Python init script
+          COPY <<'PY' /init.py
+          import os
+          from azure.storage.blob import BlobServiceClient
+
+          CONN_STR = (
+              "DefaultEndpointsProtocol=http;"
+              "AccountName=devstoreaccount1;"
+              "AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;"
+              "BlobEndpoint=http://127.0.0.1:10000/devstoreaccount1;"
+          )
+
+          def main():
+              blob_service_client = BlobServiceClient.from_connection_string(CONN_STR)
+              container_client = blob_service_client.get_container_client("person")
+              container_client.create_container()
+              for filename in os.listdir("/init-data"):
+                  path = os.path.join("/init-data", filename)
+                  if os.path.isfile(path):
+                      blob_client = container_client.get_blob_client(filename)
+                      with open(path, "rb") as data:
+                          blob_client.upload_blob(data, overwrite=True)
+                      print(f"Uploaded {filename}")
+
+          if __name__ == "__main__":
+              main()
+          PY
+
+          # Entrypoint: start Azurite, wait, then run Python init script
+          CMD ["sh", "-c", "azurite --blobHost 0.0.0.0 --blobPort 10000 --location /data/blob --silent & sleep 5 && python3 /init.py && wait"]
           EOF
 
       - name: Push image
